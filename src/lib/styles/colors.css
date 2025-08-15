@@ -1,0 +1,13 @@
+:root {
+  --white: #b0b0b0;
+  --icon-size: 1.5rem;
+  --icon-color: var(--white);
+}
+
+html {
+  background-color: black;
+}
+
+* {
+  color: var(--white);
+}

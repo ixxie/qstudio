@@ -1,0 +1,58 @@
+:root {
+  --spacing-x: 1rem;
+  --spacing-y: 1rem;
+
+  --padding-factor: 0.8;
+  --padding-x: calc(var(--spacing-x) * var(--padding-factor));
+  --padding-y: calc(var(--spacing-y) * var(--padding-factor));
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: var(--spacing-x);
+
+  >.grow {
+    flex-grow: var(--grow, 1)
+  }
+}
+
+.col {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: var(--spacing-y);
+
+  >.grow {
+    flex-grow: var(--grow, 1)
+  }
+}
+
+.full {
+  width: 100%;
+}
+
+.spaced {
+  justify-content: space-between;
+}
+
+.centered {
+  align-items: center;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.start {
+  align-items: flex-start;
+}
+
+.end {
+  align-items: flex-end
+}
+
+.padded {
+  margin: var(--padding-y) var(--padding-x);
+}

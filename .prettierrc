@@ -1,0 +1,25 @@
+{
+  "useTabs": false,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "plugins": ["prettier-plugin-svelte", "@ianvs/prettier-plugin-sort-imports"],
+  "overrides": [
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "svelte"
+      }
+    }
+  ],
+  "importOrder": [
+    "^@",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^\\$(?!lib/)",
+    "",
+    "^\\$lib/",
+    "",
+    "^[.]"
+  ]
+}

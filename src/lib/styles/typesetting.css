@@ -1,0 +1,33 @@
+:root {
+  --font-family: JetBrains Mono, Inter, sans-serif;
+  --font-size: 13px;
+  --font-color: var(--white);
+}
+
+* {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--font-color);
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1rem;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.info {
+  font-size: small;
+  opacity: 0.5;
+  font-style: italic;
+  margin: 0.5rem;
+}

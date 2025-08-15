@@ -1,0 +1,11 @@
+.edit {
+  display: var(--edit) !important;
+}
+
+.play {
+  display: var(--play) !important;
+}
+
+.debug {
+  display: var(--debug) !important;
+}
